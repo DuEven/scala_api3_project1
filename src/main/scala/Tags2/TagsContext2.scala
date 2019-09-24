@@ -1,3 +1,4 @@
+/*
 package Tags2
 
 import com.typesafe.config.ConfigFactory
@@ -18,11 +19,6 @@ object TagsContext2 {
 
   def main(args: Array[String]): Unit = {
 
-    System.setProperty("hadoop.home.dir", "D:\\Huohu\\下载\\hadoop-common-2.2.0-bin-master")
-    if(args.length!=4){
-      println("目录不正确")
-      sys.exit()
-    }
 
     val Array(inputPath,docs,stopwords,day)=args
 
@@ -144,3 +140,4 @@ object TagsContext2 {
     spark.stop()
   }
 }
+*/
